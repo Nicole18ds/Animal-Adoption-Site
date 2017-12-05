@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title> Adoption Site </title> 
+
+<link rel="stylesheet" href="Main.css" media="screen">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Domine|Righteous|Rozha+One" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head> 
+
+<body>
+<!---- Container Div --->
+<div id="container">
+<!---- Header --->
+	<header> <h1> Philadelphia County Adoption Center </h1> </header>
+
+	<hr>
+<!---- Nav Bar --->
+<nav id="nav"> 
+	<ul> 
+		<li><a href="#"> Home </a></li>
+		<li><a href="#"> Blog </a></li>
+		<li><a href="#"> About Us </a></li>
+		<li><a href="#"> Animals </a></li>
+		<li><a href="#"> Events </a></li>
+		<li><a href="#"> Resources </a></li>
+		<li><a href="#"> Contact Us </a></li>	
+	</ul>
+</nav>
+
+<hr>
+
+<!---- Filler Text --->
+<div id="maintext">
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+		Donec tempor, nisi non viverra suscipit, metus arcu elementum mi, vel tincidunt justo diam ut purus. 
+		Nulla id tristique orci, in commodo massa. Integer erat odio, congue in dapibus in, bibendum ut arcu. 
+		Praesent magna mi, elementum sit amet iaculis eu, maximus sed eros. Donec vel tincidunt est. 
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+		Aliquam quis erat sagittis, iaculis libero id, luctus tortor. Suspendisse imperdiet viverra dignissim. 
+		Suspendisse ac erat ac ipsum suscipit sodales. Nunc varius felis et dui fermentum convallis. 
+		Quisque eu tempus turpis. Cras ac metus vitae purus mollis aliquam. Quisque erat urna, pretium vel consectetur 
+		vitae, commodo eget nibh. 
+	</br>
+	</br>
+		Donec consectetur maximus mauris id molestie. Sed condimentum, dui at fringilla malesuada, 
+		nisl purus tristique tellus, sed gravida tellus nibh vel nisi. Nunc scelerisque nisi et commodo vestibulum. 
+		Nullam quis dapibus nunc. In at velit orci. Aliquam suscipit tristique turpis id dignissim. Morbi id maximus nibh.
+	</p> 
+</div>
+
+<!---- Carousel of photos gp here. --->
+<div id="maincarousel">   </div>
+
+<!---- Call to action area. Customers will be asked to adopt or foster today --->
+<div id="callto">
+
+	<div id="events" class="cards">   
+		<a href="#"><img src="img/events.png" alt="adoption events" height="300" width="250">
+			<div><p> Adopt a pet today!</p></div>
+	</div>
+
+	<div id="fostercare" class="cards">
+		<a href="#"><img src="img/foster.png" alt="foster an animal" height="300" width="250">
+			<div> <p> Foster a pet today!</p> </div>	
+	</div>
+
+</div>
+
+<!---- Bottom area with photos and links to a page that lists all the animals the shelter has. --->
+<div id="bottomrow">
+
+<h2> Take a look at all of our animals.</h2>
+		<div class="square">
+			<a href="#"><img src="img/dog.png" alt="dog" height="250" width="250"> </a>
+			<div><p> Dogs </p></div>
+		</div>
+		<div class="square">
+			<a href="#"><a href="#"><img src="img/cat.png" alt="cat" height="250" width="250"></a>
+			<div><p>Cats</p></div>
+		</div>
+		<div class="square">
+			<a href="#"><a href="#"><img src="img/bird.png" alt="bird" height="250" width="250"></a>
+			<div><p> Birds</p></div>
+		</div>
+		<div class="square">
+			<a href="#"><a href="#"><img src="img/smallanimal.png" alt="small animal" height="250" width="250"></a>
+			<div><p> Small Animals</p></div>
+		</div>
+		<div class="square">
+			<a href="#"><a href="#"><img src="img/fish.png" alt="fish" height="250" width="250"></a>
+			<div><p> Fish</p></div>
+		</div>
+		<div class="square">
+			<a href="#"><a href="#"><img src="img/exotic.png" alt="exotic animal" height="250" width="250"></a>
+			<div><p> Exotic Animals</p></div>
+		</div>
+</div>
+
+</br>
+
+<!---- Footer Area --->
+<footer>
+	<a href="#"><i class="fa fa-facebook-square" style="font-size:48px;color:blue"></i></a>
+	<a href="#"><i class="fa fa-git-square" style="font-size:48px;color:blue"></i></a>
+	<a href="#"><i class="fa fa-google-plus-square" style="font-size:48px;color:blue"></i></a>
+	<a href="#"><i class="fa fa-instagram" style="font-size:48px;color:blue"></i></a>
+	<a href="#"><i class="fa fa-linkedin-square" style="font-size:48px;color:blue"></i></a>
+	<a href="#"><i class="fa fa-tumblr-square" style="font-size:48px;color:blue"></i></a>
+	<a href="#"><i class="fa fa-twitter-square" style="font-size:48px;color:blue"></i></a>
+	<p> &copy; DNS Designs </p>
+</footer>
+<!---- End of main container --->
+</div>
+</body>
+</html>
